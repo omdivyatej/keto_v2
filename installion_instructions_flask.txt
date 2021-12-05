@@ -1,0 +1,3 @@
+python -m venv Mydemovenv
+Mydemovenv/Scripts/activate
+(Mydemovenv) PS D:\Learning Flask> pip install flask
