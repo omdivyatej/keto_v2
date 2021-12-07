@@ -8,7 +8,7 @@ def running():
  lane = 'middle'
 
  # For webcam input:
- cap = cv2.VideoCapture(0)
+ cap = cv2.VideoCapture(cv2.CAP_V4L2)
  loop_counter = 0
  going_left = 0
  going_right = 0
